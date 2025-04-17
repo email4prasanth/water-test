@@ -15,7 +15,7 @@ app = FastAPI(
 
 # Load pretrained model using pickle
 # model = pickle.load(open(r"D:\PersonalRepo\MLOPS\Code\model.pkl","rb"))
-with open("D:\PersonalRepo\MLOPS\Code\model.pkl","rb") as f:
+with open("model.pkl","rb") as f:
     model = pickle.load(f)
 
 # Using decorator '@' to functions or methods
